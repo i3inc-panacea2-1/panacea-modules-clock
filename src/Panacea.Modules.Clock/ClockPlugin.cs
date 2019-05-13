@@ -20,6 +20,7 @@ namespace Panacea.Modules.Clock
             _core = core;
             _clock = new ClockControl();
             _clock.SetValue(DockPanel.DockProperty, Dock.Right);
+            _clock.SetValue(DockPanel.ZIndexProperty, 999);
         }
 
         public Task BeginInit()
