@@ -19,7 +19,7 @@
             Grid.Column="1"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
-            pcontrols:Material.RelativeFontSizeRatio="2.0"
+            pcontrols:Material.RelativeFontSizeRatio="2.4"
             FontWeight="Normal"
             Foreground="White"
             IsHitTestVisible="True"
