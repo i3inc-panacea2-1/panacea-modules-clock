@@ -6,6 +6,8 @@
              xmlns:local="clr-namespace:Panacea.Modules.Clock"
              xmlns:pcontrols="clr-namespace:Panacea.Controls;assembly=Panacea.Controls"
              mc:Ignorable="d" 
+             DockPanel.Dock="Right"
+             Panel.ZIndex="999"
              d:DesignHeight="450" d:DesignWidth="800"
              Loaded="Clock_OnLoaded"
              Unloaded="OnUnloaded">

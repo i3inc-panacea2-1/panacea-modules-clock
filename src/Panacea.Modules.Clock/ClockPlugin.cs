@@ -13,14 +13,13 @@ namespace Panacea.Modules.Clock
     public class ClockPlugin : IPlugin
     {
         private readonly PanaceaServices _core;
-        ClockControl _clock;
+        ClockControlViewModel _clock;
 
         public ClockPlugin(PanaceaServices core)
         {
             _core = core;
-            _clock = new ClockControl();
-            _clock.SetValue(DockPanel.DockProperty, Dock.Right);
-            _clock.SetValue(DockPanel.ZIndexProperty, 999);
+            _clock = new ClockControlViewModel();
+            
         }
 
         public Task BeginInit()
