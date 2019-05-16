@@ -1,12 +1,7 @@
 ﻿using Panacea.Core;
 using Panacea.Modularity;
 using Panacea.Modularity.UiManager.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Controls;
 
 namespace Panacea.Modules.Clock
 {
@@ -19,7 +14,6 @@ namespace Panacea.Modules.Clock
         {
             _core = core;
             _clock = new ClockControlViewModel();
-            
         }
 
         public Task BeginInit()
