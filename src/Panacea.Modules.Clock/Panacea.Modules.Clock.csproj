@@ -84,7 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Panacea.Controls">
-      <Version>0.0.11-beta20190513-1237-gdfddf1a</Version>
+      <Version>0.0.20-beta20190520-1133-gb4c077a</Version>
     </PackageReference>
     <PackageReference Include="Panacea.Modularity.UiManager">
       <Version>8.0.0</Version>
