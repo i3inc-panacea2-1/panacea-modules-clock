@@ -1,6 +1,6 @@
 ﻿using Panacea.Core;
 using Panacea.Modularity;
-using Panacea.Modularity.UiManager.Extensions;
+using Panacea.Modularity.UiManager;
 using System.Threading.Tasks;
 
 namespace Panacea.Modules.Clock
