@@ -52,7 +52,6 @@ namespace Panacea.Modules.Clock
             t = new DispatcherTimer { Interval = TimeSpan.FromSeconds(1) };
             t.Tick += t_Elapsed;
             LanguageContext.Instance.LanguageChanged += Instance_LanguageChanged;
-            Console.WriteLine(GetValue(Material.RelativeFontSizeProperty));
             t.Start();
         }
 
